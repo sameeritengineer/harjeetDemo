@@ -1,0 +1,52 @@
+@media (min-width: 1500px) and (max-width: 5000px) {
+
+}
+@media (min-width: 1200px) and (max-width: 1499px) {
+ .cat-box h4 {
+    font-size: 18px;
+} 
+h1.top-admin-title {
+    font-size: 42px;
+	letter-spacing: 6px;
+}
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+ .cat-box h4 {
+    font-size: 18px;
+} 
+}
+
+@media (min-width: 300px) and (max-width: 767px) {
+main {
+    padding-left: 0px;
+}
+body.open .sidemenu-wrapper {
+    position: fixed;
+    top: 0px;
+    z-index: 99;
+    left: -272px;
+}
+body.open i.fa.fa-bars.closeside {
+    display: block;
+}
+i.fa.fa-times.mob-close-icon {
+    position: absolute;
+    right: 9px;
+    color: #040404;
+    background: white;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    border-radius: 30px;
+    padding-top: 6px;
+    display: block;
+    top: 6px;
+}
+h1.top-admin-title {
+    font-size: 24px;
+    letter-spacing: 6px;
+}
+.collapse:not(.show) {
+    display: block;
+}
+}
