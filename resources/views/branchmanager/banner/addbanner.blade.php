@@ -3,6 +3,8 @@
 <!-- Layout container -->
 <div class="layout-page">
 @include('branchmanager.layouts.navbar')
+@include('branchmanager.banner.banner_modal')
+
 
  <!-- Content wrapper -->
  <div class="content-wrapper">
@@ -53,7 +55,7 @@
                         </div><br><br>
 
                         <div class="mb-3 col-md-12">
-                            <!-- <label for="upload_image" class="custom-file-label image_label">Featured Image</label> -->
+                            <label for="upload_image" class="custom-file-label image_label" onclick ="bannermodal();" >Featured Images</label>
                             @if($type == 1)
                             <label for="featured image" class="form-label">Banner Image</label>
                             <input type="file" id="upload" name="image" class="form-control" />

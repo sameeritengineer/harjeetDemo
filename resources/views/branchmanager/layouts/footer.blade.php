@@ -120,6 +120,15 @@ function deletedata(url){
 	}
 
 
+  function bannermodal(){
+    //alert("ghghg");
+		  $('#banner_modal').modal('show');
+	}
+
+
+
+
+
 $(document).ready( function ()
   {
   $('#user_data_table').DataTable();
@@ -158,10 +167,11 @@ $('#slug').text(slug($('#title').text()));
     var trims =$.trim(str)
     var slug = trims.replace(/[^a-z0-9]/gi, '-').replace(/-+/g, '-').replace(/^-|-$/g, '')
   $("#slug").val(slug.toLowerCase())
-
-
   })
   </script>
+
+
+
 
   </body>
 </html>
