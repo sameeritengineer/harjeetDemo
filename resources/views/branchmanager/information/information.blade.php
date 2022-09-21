@@ -24,7 +24,7 @@
           <div class="tab-content" id="pills-tabContent">
             <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
               <div class="card">
-                <h5 class="card-header">Delete Account</h5>
+                <h5 class="card-header">Branch Details</h5>
                 <div class="card-body">
                   <!-- Content wrapper -->
                   <div class="content-wrapper">

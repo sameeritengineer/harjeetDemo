@@ -15,7 +15,20 @@
         <p>Modal body text goes here.</p> -->
 
 
-
+        <div class="modal-content">
+          <div class="modal-header pb-1 bg-light">
+            <ul class="nav nav-pills">
+              <li class="nav-item">
+                <a href="javascript:;" class="nav-link active">Select File</a>
+              </li>
+              <li class="nav-item">
+                <a href="javascript:;" class="nav-link">Upload New</a>
+              </li>
+            </ul>
+            <button type="button" class="close" aria-label="Close">
+              <span aria-hidden="true" style="font-size: 1.5rem;">×</span>
+            </button>
+          </div>
         <div class="modal-body">
           <div class="row">
             <div class="col">
@@ -146,6 +159,7 @@
             </div>
           </div>
         </div>
+          </div>
       <!-- </div> -->
       <div class="modal-footer">
         <button type="button" class="btn btn-primary">Save changes</button>

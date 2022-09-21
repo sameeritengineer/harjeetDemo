@@ -3,7 +3,7 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
-
+use Illuminate\Support\Facades\Auth;
 class BranchManagerController extends Controller
 {
     public function index()
@@ -14,8 +14,9 @@ class BranchManagerController extends Controller
 
     public function information()
     {
+        $id = Auth::user()->id;
 
-        $branch =  \App\Branch::where('id','2')->get();
+         $branch =  \App\Branch::where('user_id', $id)->get(); 
         return view('branchManager/information/information',compact('branch'));
 
     }
